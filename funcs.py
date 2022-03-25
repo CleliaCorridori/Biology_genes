@@ -51,7 +51,7 @@ def fig_distr_int(matx, thr, text="Interactions values", Print=False):
     plt.ylabel("Counts", fontsize=14)
 #     plt.axvline(np.mean(matx)+np.std(matx), color="red", label="+"+np.str(np.round(np.mean(matx)+np.std(matx),0)) )
 #     plt.axvline(np.mean(matx)-np.std(matx), color="red", label="-"+np.str(np.round(np.mean(matx)-np.std(matx),0)) )
-    plt.legend(fontsize="14")
+#     plt.legend(fontsize="14")
     if Print==True:
         plt.savefig('Distr.pdf', transparent = False, bbox_inches='tight')
     plt.show()
